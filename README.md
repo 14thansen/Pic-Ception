@@ -31,4 +31,4 @@ Download the .zip file "picception.zip". The "main.py" file is where you want to
 
 ## Tests
 
-Once you have downloaded the .zip file the two files that you can run tests with are "picAlgorithm.py" and "main.py" by deleting the comment marks around the main function at the bottom of the "picAlgorithm.py" file you can run a test by simply pressing run. When testing the "main.py" program follow the instructions provided on the GUI.
+Once you have downloaded the .zip file you will want to open the main.py file and run it, I have provided detailed instructions within the GUI for tests.
