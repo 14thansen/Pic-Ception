@@ -2,7 +2,7 @@
 Going to Disneyland is every child's dream, I too had this dream and I remember the first time I went to Disneyland; the car ride was long and the weather was hot and humid but my seven year old mind knew that this was to be the best trip ever. I remember going on the big roller coasters and thinking I was a big shot when I got to go on a ride my five year old sister was still too small for. One memory that strangely stands out from the rest is eating ice cream in Mickey’s Toontown, it was the biggest ice cream I had ever eaten but that is not why I mention this life changing moment. I was about half way done with my ice cream when I got a brain freeze! I stuck my tongue to the top of my mouth, closed my eyes, and leaned my head back. When I opened my eyes, with my head still back, I saw the most amazing mural in the world; it was a giant mural of Mickey Mouse that covered the entire wall and what made it so special was that within the picture of mickey mouse was thousands of smaller images of all my favorite Disney characters. Since that moment in my childhood I have seen several other photo collages that make up a larger photo but I’ve never come across a program that would create one for you. So this was my purpose, to create a program that would do just that.
 
 ## Code Example
-'''python'''
+'''python
 def create(self):
 		"""Places images to create the larger image."""
 		self._newImage.draw()
@@ -20,7 +20,7 @@ def create(self):
 		#saveAs += "/My Picception.gif"
 		#self._newImage.save(saveAs)
 		_root.mainloop()
-
+'''
 ## Motivation
 
 My motivation for building this program was primarily for my Python 3 final project, but I was also motivated by the true story I told in the introduction.
