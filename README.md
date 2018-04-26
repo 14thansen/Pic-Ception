@@ -4,22 +4,21 @@ Going to Disneyland is every child's dream, I too had this dream and I remember 
 ## Code Example
 '''python
 def create(self):
-		"""Places images to create the larger image."""
-		self._newImage.draw()
-		for y in range(0, self._heightB, self._heightS):
-			for x in range(0, self._widthB, self._widthS):
-				(r, g, b) = self.__getColor(self._bigpic, x, y, self._widthS, self._heightS)
-				pic = choice(self._minipics)
-				pic = self.__setColor(pic, (r, g, b))
-				for yy in range(y, y + self._heightS):
-					for xx in range(x, x + self._widthS):
-						(r, g, b) = pic.getPixel(xx - x, yy - y)
-						self._newImage.setPixel(xx, yy, (r, g, b))
+	self._newImage.draw()
+	for y in range(0, self._heightB, self._heightS):
+		for x in range(0, self._widthB, self._widthS):
+			(r, g, b) = self.__getColor(self._bigpic, x, y, self._widthS, self._heightS)
+			pic = choice(self._minipics)
+			pic = self.__setColor(pic, (r, g, b))
+			for yy in range(y, y + self._heightS):
+				for xx in range(x, x + self._widthS):
+					(r, g, b) = pic.getPixel(xx - x, yy - y)
+					self._newImage.setPixel(xx, yy, (r, g, b))
 			_root.update()
-		#saveAs = filedialog.askdirectory(title = "Save As")
-		#saveAs += "/My Picception.gif"
-		#self._newImage.save(saveAs)
-		_root.mainloop()
+	#saveAs = filedialog.askdirectory(title = "Save As")
+	#saveAs += "/My Picception.gif"
+	#self._newImage.save(saveAs)
+	_root.mainloop()
 '''
 ## Motivation
 
